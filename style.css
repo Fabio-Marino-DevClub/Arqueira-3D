@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    min-height: 100vh;
+    background: #121212;
+}
+.card{
+    width: 600px;
+    height: 500px;
+    background: url(/pexels-cornelius-8345087.jpg);
+    background-position: center;
+    background-size: 100%;
+    border-radius: 15px;
+    transform-style: preserve-3d;
+    cursor: pointer;
+    transition: transform 0.1s ease;
+}
+.card img{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    width: 800px;
+    transform: translate(-50%,-50%) translateZ(175px);
+}
